@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+html {
+    font-family: "Arvo";
+}
+body {
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #828282;
+    font-family: 'Arvo';
+    padding: 0;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    word-break: break-word;
+}
+.banner_area {
+    background-image: url("../images/banner.webp");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    padding: 80px 0 0px;
+   /* margin-top: -80px;*/
+}
+.color-orange {
+    color: #f2683c;
+}
+.banner_content h2 {
+    font-size: 26px;
+    font-weight: 400;
+    color: #434558;
+    line-height: 40px;
+    font-family: "Arvo";
+}
+.header-center {
+    font-family: "Arvo";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #ff4e1f;
+    margin-top: 40px;
+}
+.icon_img {
+    text-align: center;
+}
+.icon_img p {
+    font-family: "Arvo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #fd6837;
+    margin-top: 10px;
+}
+.btn_theme {
+    background: #f2683c;
+    border-radius: 8px;
+    padding: 16px 28px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #fff !important;
+    text-decoration: none;
+}
+.btn_theme_gray {
+    background: #434558;
+    border-radius: 8px;
+    padding: 16px 28px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #fff !important;
+    text-decoration: none;
+}
+.icon_layout {
+    padding: 100px 0 50px;
+}
+.image_box .title {
+    font-family: "Arvo";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 52px;
+    text-align: center;
+    color: #434558;
+    margin-bottom: 0;
+}
+.image_box .text {
+    font-family: "Arvo";
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    color: #fd6837;
+    display: table;
+    margin: auto;
+    font-size: 30px;
+    line-height: 52px;
+}
+.simple_layout {
+    background-image: url("../images/wave-bg.webp");
+    background-size: contain;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+.headingbold {
+    font-family: "Arvo";
+    color: #434558;
+    border-bottom: 4px solid #fd6737;
+    font-weight: 600;
+    font-size: 30px;
+}
+.title-heading {
+    font-weight: 400;
+    font-size: 30px;
+    color: #fd6737;
+}
+.card_box {
+    background: #fff;
+
+    padding: 30px 20px 60px;
+
+    box-shadow: 0px 0px 16px 6px #8080801a;
+    border-radius: 10px;
+    position: relative;
+}
+.po1 {
+    position: absolute;
+    right: 0;
+    top: -7px;
+    max-width: 110px;
+}
+.po2 {
+    position: absolute;
+    left: 0;
+    bottom: -7px;
+    max-width: 60px;
+}
+.title_box {
+    color: #434558;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+.top_img {
+    max-width: 60px;
+}
+.title_box_inner {
+    color: #434558;
+    font-size: 12px;
+    margin-bottom: 0;
+    line-height: 16px;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover {
+    background: #ff672b !important;
+    color: #fff;
+    text-decoration: none;
+}
+.timeline_layout {
+    padding: 80px 0px;
+}
+.testimonial_layout {
+    background-image: url("../images/wave.png");
+    background-size: cover;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+.image_box_timeline {
+    position: relative;
+}
+.image_box_timeline img {
+    margin-bottom: 10px;
+}
+.image_box_timeline .title,
+.image_box_timeline .text {
+    font-family: "Arvo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 0;
+    color: #212529;
+}
+.connector {
+    position: absolute;
+    right: -80px;
+    top: 37%;
+    width: 49%;
+}
+.test_box {
+    background-image: url(../images/logo_bg.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 25%;
+    margin-bottom: 15px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 36px -30px rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+}
+.client_name {
+    padding-left: 10px;
+    color: #fd6737;
+    padding-top: 5px;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 900;
+}
+.test_box img {
+    max-width: 70px;
+    margin-left: 10px;
+    border: 2px solid #fd6737;
+    border-radius: 50px;
+}
+.client_text {
+    padding-left: 10px;
+
+    font-size: 16px;
+    font-weight: 900;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+}
+.footer_sec {
+    background: #434558;
+    padding: 20px 0;
+}
+.footer_details p {
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 0;
+    font-family: "PT Sans", sans-serif;
+}
+.footer_details a {
+    color: #fff;
+    font-family: "PT Sans", sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+}
+.btn_mobile
+{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+  .connector {
+    display: none;
+}
+.btn_col {
+    display: none;
+}
+.banner_area {
+    padding: 130px 0 0;
+}
+.btn_mobile
+{
+    display: block;
+    padding-bottom: 10px;
+}
+.banner_content h2 {
+    font-size: 20px;
+    line-height: 30px;
+}
+.icon_img p {
+
+    font-size: 14px;
+    line-height: 18px;
+  
+}
+.image_box .title {
+    margin-top: 10px;
+  
+    font-size: 22px;
+    line-height: 18px;
+   
+}
+.image_box .text {
+    font-size: 25px;
+    line-height: 42px;
+}
+.title-heading {
+    font-size: 26px;
+    line-height: 45px;
+}
+}
