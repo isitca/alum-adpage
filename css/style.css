@@ -22,7 +22,7 @@ body {
     background-attachment: scroll;
     background-size: 100% 100%;
     padding: 80px 0 0px;
-   /* margin-top: -80px;*/
+    margin-top: -80px;
 }
 .color-orange {
     color: #f2683c;
@@ -143,7 +143,7 @@ body {
     max-width: 60px;
 }
 .title_box {
-    color: #434558;
+    
     font-size: 15px;
     margin-bottom: 0;
 }
@@ -152,7 +152,7 @@ body {
 }
 .title_box_inner {
     color: #434558;
-    font-size: 12px;
+    font-size: 13px;
     margin-bottom: 0;
     line-height: 16px;
 }
@@ -203,6 +203,7 @@ body {
     padding: 20px;
     box-shadow: 0 0 36px -30px rgba(0, 0, 0, 0.75);
     border-radius: 5px;
+    height:220px;
 }
 .client_name {
     padding-left: 10px;
@@ -289,3 +290,73 @@ body {
     line-height: 45px;
 }
 }
+.form_Section{
+    padding:100px 0 40px;
+}
+.form_box {
+    padding: 30px;
+    box-shadow: 0px 0px 10px #8080802e;
+    border-radius: 20px;
+}
+.form_box_nons{
+ box-shadow:unset !important;
+padding: 10px !important;
+}
+.imh_note {
+    margin-top: -110px;
+}
+.form_box label {
+    font-size: 16px;
+    font-family: 'PT Sans';
+    color: #fd6837;
+    font-weight: 500;
+}
+
+input.btn_input {
+    background: #fd6837;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-family: 'PT Sans';
+    padding: 5px 30px;
+    border-radius: 25px;
+}
+.form_box {
+    color: black;
+    font-family: 'PT Sans';
+    font-size: 16px;
+}
+.create_aa {
+    font-size: 20px;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 5px;
+  border: 1px solid #dfdfdf;
+  border-radius: 2px;
+  margin-right: 2rem;
+  padding: 1rem;
+  padding-right: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
